@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #141821;
+    color: #f9fcff;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+/* CABEÇALHO */
+.topo {
+    background-color: #080d16;
+    color: #ffd34d;
+    padding: 20px 24px;
+}
+
+.topo_nome {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.topo_apoio {
+    margin: 4px 0 0;
+    color: #f9fcff;
+    font-size: 0.85rem;
+}
+
+/* SEÇÃO DE CONTEÚDO */
+.secao {
+    padding: 30px 24px;
+}
+
+/* GRADE PRODUTOS */
+.jogos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#GTA_corpo {
+    color: #a3d36d;
+    background-color: #101510;
+    padding: 10px 20px;
+    border-radius: 1%;
+}
+
+#LOL_corpo {
+    color: #e4c377;
+    background-color: #091f2c;
+    padding: 10px 20px;
+    border-radius: 1%;
+}
+
+#mario_corpo {
+    color: #c52224;
+    background-color: #fff3cc;
+    padding: 10px 20px;
+    border-radius: 1%;
+}
+
+.descricao {
+    color: #f9fcff;
+}
+
+.mario_descricao {
+    color: #23406f;
+}
+
+#GTA_botao{
+    background-color: #a3d36d;
+    padding: 10px;
+    border: #a3d36d;
+}
+
+#LOL_botao{
+    background-color: #e4c377;
+    padding: 10px;
+    border: #e4c377;
+}
+
+#mario_botao{
+    background-color: #c52224;
+    padding: 10px;
+    border: #c52224;
+}
+
+/* O CARTÃO DO PRODUTO */
+.rodape {
+    background-color: #232c3c;
+    padding: 10px 24px 50px;
+}
